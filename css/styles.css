@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: gray;
+    width: 46.875rem;
+    height: 23.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 0.625rem;
+}
+
+.flag {
+    display: inline-block;
+    border: 3px solid white;
+    width: calc(100% / 3 - 10px);
+    height: calc(100% / 2 - 10px);
+}
+
+.flag-1 {
+    /* background-image: linear-gradient(#d90011 calc(100% / 3),
+            #0033a0 calc(100% / 3),
+            #0033a0 calc(100% / 3 * 2),
+            #f2a800 calc(100% / 3 * 2)); */
+
+    background-image: linear-gradient(#d90011 33.3%,
+            #0033a0 33.3% 66.6%,
+            #f2a800 66.6%);
+}
+
+.flag-2 {
+    background-image: linear-gradient(to right,
+            black calc(100% / 3),
+            #fae042 calc(100% / 3),
+            #fae042 calc(100% / 3 * 2),
+            #ed2939 calc(100% / 3 * 2));
+}
+
+.flag-3 {
+    background-image: linear-gradient(#75aadb 35%,
+            white 35%,
+            white 40%,
+            black 40%,
+            black 60%,
+            white 60%,
+            white 65%,
+            #75aadb 65%);
+
+    /* background: linear-gradient(#75aadb calc(100% /3),
+    white calc(100%/3), white calc(100%/3/0.25),black calc(100%/3/0.25),white calc(100%/3/0.75) ,
+    black calc(100%/3/0.75),black calc(100% / 3 * 2)#75aadb calc(100% / 3 * 2)); */
+}
+
+.flag-4 {
+    background-image: linear-gradient(to right,
+            #008751 40%,
+            transparent 40%,
+            transparent 100%),
+        linear-gradient(to bottom, #fcd116 50%, #e8112d 50%);
+}
+
+.flag-5 {
+    background-image: linear-gradient(132deg,
+            #009543 40%,
+            #fbde4a 40%,
+            #fbde4a 60%,
+            #d21034 60%);
+}
+
+.flag-6 {
+    background-image: linear-gradient(118deg,
+            #003f87 25%,
+            transparent 25%,
+            transparent 100%),
+        linear-gradient(136deg, #fcd856 46%, transparent 46%, transparent 100%),
+        linear-gradient(157deg, #d62828 65%, transparent 65%, transparent 100%),
+        linear-gradient(168deg, white 79%, transparent 79%, transparent 100%),
+        linear-gradient(168deg, #007a3d 100%, transparent 100%);
+}
